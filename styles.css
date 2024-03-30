@@ -1,0 +1,90 @@
+﻿body {
+    background-color: #333333; /* Medium Black Background */
+    color: #FFFFFF; /* White Text */
+    font-family: Verdana, Sans-Serif;
+}
+
+.banner {
+    text-align: center;
+    padding: 20px;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links a {
+    color: White; /* Blue Text */
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about-content img {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.gallery-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.projects-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+p {
+    color: White;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
